@@ -1,0 +1,370 @@
+{
+  "watches": [
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    },
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    },
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    },
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    },
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    },
+    {
+      "id": 1,
+      "brand": "Rolex",
+      "model": "Submariner",
+      "type": "analog",
+      "price": 8999.99,
+      "description": "Luxury diving watch with automatic movement",
+      "images": [
+        "https://picsum.photos/seed/rolex1/400/400",
+        "https://picsum.photos/seed/rolex2/400/400",
+        "https://picsum.photos/seed/rolex3/400/400"
+      ],
+      "features": [
+        "Water resistant to 300m",
+        "Automatic movement",
+        "Stainless steel case",
+        "Sapphire crystal"
+      ],
+      "stock": 5,
+      "soldCount": 120
+    },
+    {
+      "id": 2,
+      "brand": "Casio",
+      "model": "G-Shock",
+      "type": "digital",
+      "price": 99.99,
+      "description": "Rugged digital watch with multiple features",
+      "images": [
+        "https://picsum.photos/seed/casio1/400/400",
+        "https://picsum.photos/seed/casio2/400/400"
+      ],
+      "features": [
+        "Shock resistant",
+        "200m water resistant",
+        "World time",
+        "Stopwatch"
+      ],
+      "stock": 50,
+      "soldCount": 450
+    },
+    {
+      "id": 3,
+      "brand": "Omega",
+      "model": "Speedmaster",
+      "type": "analog",
+      "price": 5999.99,
+      "description": "Iconic chronograph watch worn on the moon",
+      "images": [
+        "https://picsum.photos/seed/omega1/400/400",
+        "https://picsum.photos/seed/omega2/400/400"
+      ],
+      "features": [
+        "Chronograph function",
+        "Tachymeter scale",
+        "Manual-winding movement",
+        "Hesalite crystal"
+      ],
+      "stock": 8,
+      "soldCount": 89
+    }
+  ]
+}
