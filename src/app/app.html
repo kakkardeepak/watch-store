@@ -1,0 +1,92 @@
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" [routerLink]="['/']">WatchMart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/watches']" [routerLinkActive]="['active']">All Watches</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/admin']" [routerLinkActive]="['active']">Admin</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link position-relative" [routerLink]="['/cart']" [routerLinkActive]="['active']">
+            <i class="bi bi-cart3"></i> Cart
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark" *ngIf="cartItemCount$() > 0">
+              {{ cartItemCount$() }}
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dark Hero Section -->
+<section class="bg-dark text-light py-2 mb-4">
+  <div class="container text-center">
+    <h1 class="display-6 fw-bold mb-3">Timeless Elegance</h1>
+    <p class="lead mb-4">Premium wristwatches for every style and occasion. Shop exclusive collections now!</p>
+    <!-- <a class="btn btn-warning btn-lg px-4 fw-bold" [routerLink]="['/watches']">Shop Now</a> -->
+  </div>
+</section>
+
+<!-- Product Categories -->
+<!-- <section class="container">
+  <div class="row text-center mb-4">
+    <div class="col-md-4 mb-3">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <i class="bi bi-watch display-4 text-primary mb-2"></i>
+          <h5 class="fw-bold">Luxury Watches</h5>
+          <p class="text-muted">Rolex, Omega, Tag Heuer &amp; more</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <i class="bi bi-stopwatch display-4 text-success mb-2"></i>
+          <h5 class="fw-bold">Sport Watches</h5>
+          <p class="text-muted">Casio, G-Shock, Garmin &amp; more</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <i class="bi bi-smartwatch display-4 text-info mb-2"></i>
+          <h5 class="fw-bold">Smart Watches</h5>
+          <p class="text-muted">Apple, Samsung, Fossil &amp; more</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Main Content -->
+<div class="container mb-5">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-light py-4 mt-auto">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div>
+      <span class="fw-bold">WatchMart</span> &copy; 2025. All rights reserved.
+    </div>
+    <div>
+      <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+    </div>
+  </div>
+</footer>

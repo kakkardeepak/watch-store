@@ -1,0 +1,73 @@
+
+<div class="container mt-4">
+  <div class="row">
+    <!-- Sidebar Filters -->
+    <div class="col-md-3">
+      <div class="card mb-4">
+        <div class="card-header fw-bold">Filter Watches</div>
+        <div class="card-body">
+          <div class="mb-3">
+            <div class="fw-bold mb-2">Brands</div>
+            <div *ngFor="let brand of uniqueBrands">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"
+                  [checked]="selectedBrands.includes(brand)"
+                  (change)="onBrandCheckboxChange($event, brand)">
+                <label class="form-check-label">{{brand}}</label>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="fw-bold mb-2">Types</div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox"
+                [checked]="selectedTypes.includes('analog')"
+                (change)="onTypeCheckboxChange($event, 'analog')">
+              <label class="form-check-label">Analog</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox"
+                [checked]="selectedTypes.includes('digital')"
+                (change)="onTypeCheckboxChange($event, 'digital')">
+              <label class="form-check-label">Digital</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="fw-bold mb-2">Sort By</div>
+            <select class="form-select" (change)="sortWatches($event)">
+              <option value="">None</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="popularity">Popularity</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Watch Grid -->
+    <div class="col-md-9">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" *ngFor="let watch of filteredWatches">
+          <div class="card h-100">
+            <img [src]="watch.images[0]" class="card-img-top" [alt]="watch.model"
+                 style="height: 200px; object-fit: cover; cursor: pointer"
+                 (click)="openWatchDetails(watch)">
+            <div class="card-body">
+              <h5 class="card-title">{{watch.brand}} {{watch.model}}</h5>
+              <p class="card-text">
+                <small class="text-muted">{{watch.type | titlecase}}</small>
+              </p>
+              <p class="card-text fw-bold">{{watch.price | currency}}</p>
+              <!-- <button class="btn btn-primary" (click)="addToCart(watch)">
+                Add to Cart
+              </button> -->
+                <button type="button" class="btn btn-primary btn-sm addToCartBtn" (click)="addToCart(watch)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+    
