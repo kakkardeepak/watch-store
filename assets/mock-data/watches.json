@@ -62,7 +62,7 @@
       "soldCount": 89
     },
     {
-      "id": 1,
+      "id": 4,
       "brand": "Rolex",
       "model": "Submariner",
       "type": "analog",
@@ -83,7 +83,7 @@
       "soldCount": 120
     },
     {
-      "id": 2,
+      "id": 5,
       "brand": "Casio",
       "model": "G-Shock",
       "type": "digital",
@@ -103,7 +103,7 @@
       "soldCount": 450
     },
     {
-      "id": 3,
+      "id": 6,
       "brand": "Omega",
       "model": "Speedmaster",
       "type": "analog",
@@ -123,7 +123,7 @@
       "soldCount": 89
     },
     {
-      "id": 1,
+      "id": 7,
       "brand": "Rolex",
       "model": "Submariner",
       "type": "analog",
@@ -140,11 +140,11 @@
         "Stainless steel case",
         "Sapphire crystal"
       ],
-      "stock": 5,
+      "stock": 8,
       "soldCount": 120
     },
     {
-      "id": 2,
+      "id": 8,
       "brand": "Casio",
       "model": "G-Shock",
       "type": "digital",
@@ -164,7 +164,7 @@
       "soldCount": 450
     },
     {
-      "id": 3,
+      "id": 9,
       "brand": "Omega",
       "model": "Speedmaster",
       "type": "analog",
